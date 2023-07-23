@@ -20,9 +20,9 @@ body{
     text-decoration: none;
     float:left;
     color: #ffffff;
-    font-size: 30px;
+    font-size: 3vmax;
     text-align: center;
-    padding: 14px 14px;
+    padding: 6px 8px;
 }
 .searchcontainer{
     float:right;
@@ -31,7 +31,9 @@ body{
 form{
     background-color: #151f30;
     color:#ffffff;
-    width: 300px;
+    /*width: 300px;*/
+    min-width: 6vw;
+    /*max-width: 1000px;*/
     height: 43px;
     border-radius: 11px;
     display:flex;
@@ -40,11 +42,11 @@ form{
 }
 #query{
     all: unset;
-    font: 15px;
+    font: 15p x;
     color: #ffffff;
     height: 100%;
-    width: 100%;
-    padding: 6px 9px;
+    width:100%;
+    padding: 6px 8px;
 }
 
 .thumbnail{
