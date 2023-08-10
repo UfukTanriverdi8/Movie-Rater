@@ -20,10 +20,10 @@ body{
     text-decoration: none;
     float:left;
     color: #ffffff;
-/*     font-size: 3.3vh;
+    font-size: 3.3vh;
     text-align: center;
     padding: 10px 10px;
-    cursor: pointer; */
+    cursor: pointer;
 }
 .searchcontainer{
     float: right;
