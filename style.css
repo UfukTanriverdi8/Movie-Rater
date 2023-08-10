@@ -20,18 +20,20 @@ body{
     text-decoration: none;
     float:left;
     color: #ffffff;
-    font-size: 30px;
+    font-size: 3.3vh;
     text-align: center;
-    padding: 14px 14px;
+    padding: 10px 10px;
+    cursor: pointer;
 }
 .searchcontainer{
-    float:right;
+    float: right;
 }
 
 form{
     background-color: #151f30;
     color:#ffffff;
-    width: 300px;
+    min-width: 170px;
+    width: 25vw;
     height: 43px;
     border-radius: 11px;
     display:flex;
@@ -48,13 +50,22 @@ form{
 }
 
 .thumbnail{
-    width:300px;
-    height:468px;
+    max-width: 80%;
     border-radius: 15px;
+    height: auto;
+    display: block; /* Remove any extra spacing below the image */
+}
+.main_sect{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 15px;
+}
+.center_div{
+    display: flex;
+    justify-content: center;
 }
 
 .column{
-    float:left;
     padding: 10px 10px;
 }
 
@@ -63,4 +74,87 @@ form{
     padding: 15px;
     text-align: center;
     background-color: #151f30;
+    /* width: 330px;
+    height: 560px; */
+    cursor: pointer;
 }
+
+
+
+
+
+
+
+/* TUTORIAL */
+
+/* * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #131720;
+    font-family: 'Quicksand', sans-serif;
+  }
+  
+  h3 {
+    color: white;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #131720;
+    padding: 10px;
+  }
+  
+  .topnav a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+  }
+  
+
+  .search-container{
+    float: right;
+  }
+  form{
+    background-color: #151f30;
+    width: 300px;
+    height: 43px;
+    border-radius: 11px;
+    display: flex;
+    align-items: center;
+  }
+  
+  input {
+    all: unset;
+    font: 15px system-ui;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    padding: 6px 9px;
+  }
+  
+  .thumbnail {
+    height: 350px;
+    width: 300px;
+    border-radius: 19px;
+  }
+  
+  .column {
+    float: left;
+    width: 25%;
+    padding: 10px 10px;
+  }
+  
+  .card{
+    border-radius: 19px;
+    padding: 15px;
+    text-align: center;
+    background-color: #151f30;
+
+  } */
