@@ -20,10 +20,10 @@ body{
     text-decoration: none;
     float:left;
     color: #ffffff;
-    font-size: 3.3vh;
+/*     font-size: 3.3vh;
     text-align: center;
     padding: 10px 10px;
-    cursor: pointer;
+    cursor: pointer; */
 }
 .searchcontainer{
     float: right;
@@ -42,11 +42,11 @@ form{
 }
 #query{
     all: unset;
-    font: 15px;
+    font: 15p x;
     color: #ffffff;
     height: 100%;
-    width: 100%;
-    padding: 6px 9px;
+    width:100%;
+    padding: 6px 8px;
 }
 
 .thumbnail{
