@@ -8,31 +8,32 @@ body{
     font-family: 'Quicksand', sans-serif;
 }
 
-
 .topnav{
     display:flex;
     overflow: hidden;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 5px;
+    width: 100%;
 }
 .active{
     text-decoration: none;
     float:left;
     color: #ffffff;
-    font-size: 3.3vh;
+    font-size: 3.4vh;
     text-align: center;
     padding: 10px 10px;
     cursor: pointer;
 }
-.searchcontainer{
+/* .searchcontainer{
     float: right;
-}
+} */
 
 form{
-    background-color: #151f30;
+    /* background-color: #151f30; */
+    background-color: #1f2d47d7;
     color:#ffffff;
-    min-width: 170px;
+    min-width: 150px;
     width: 25vw;
     height: 43px;
     border-radius: 11px;
@@ -42,13 +43,23 @@ form{
 }
 #query{
     all: unset;
-    font: 15p x;
+    font: 15px;
     color: #ffffff;
     height: 100%;
     width:100%;
-    padding: 6px 8px;
+    padding: 6px 10px;
 }
-
+#query::-webkit-search-cancel-button{
+  -webkit-appearance: none;
+  height: 1em;
+  width: 1em;
+  border-radius: 50em;
+  background: url(https://pro.fontawesome.com/releases/v5.10.0/svgs/solid/times-circle.svg) no-repeat 50% 50%;
+  background-size: contain;
+  opacity: 0.5;
+  /* background-color:#ffffff; */
+  filter: invert(1);
+}
 .thumbnail{
     max-width: 90%;
     border-radius: 15px;
@@ -57,8 +68,9 @@ form{
 }
 .main_sect{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 15px;
+    /* font-size: 15px; */
 }
 .center_div{
     display: flex;
@@ -71,12 +83,19 @@ form{
 
 .card{
     border-radius: 19px;
-    padding: 15px;
+    padding: 10px;
     text-align: center;
-    background-color: #151f30;
+    background-color: #1f2d47ad;
     /* width: 330px;
     height: 560px; */
     cursor: pointer;
+    transition: 0.15s;
+    opacity: 0.92;
+}
+
+.card:hover{
+  opacity: 0.99;
+  border: 0.3em solid #ffffff47;
 }
 
 
