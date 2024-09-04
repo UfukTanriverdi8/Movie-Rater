@@ -1,4 +1,4 @@
-const API_KEY = "4ed091188d2b12d2db528fc3ef894cc9";
+const API_KEY = process.env['API_KEY'];
 var page_num = 1;
 const API_LINK = `https:/api.themoviedb.org/3/discover/movie?include_adult=false&sort_by=popularity.desc&api_key=${API_KEY}&page=`;
 var searched = false;
